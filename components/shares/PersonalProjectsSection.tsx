@@ -23,7 +23,7 @@ export default function PersonalProjectsSection() {
               />
             </Link>
             <div className="w-full mb-2">
-              <Link href={data.appSourceCode} className="group">
+              <Link href={data.appSourceCode} className="group" target="_blank">
                 <h6 className="flex justify-start items-center gap-1">
                   <span className="text-lg font-medium">{data.appName}</span>
                   <Image

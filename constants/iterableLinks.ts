@@ -28,6 +28,21 @@ export const contactMeData = [
 
 export const personalProjectsData = [
   {
+    href: "/projects/opendata",
+    src: "/images/ss_opendata-ebon.vercel.app.png",
+    appName: "OpenData",
+    appType: "API Server",
+    appLive: "https://opendata-ebon.vercel.app",
+    appSourceCode: "https://github.com/shang-kyimin/opendata",
+    description: "Delivers consistent and reliable APIs from Community-generated, and Randomize data.",
+    techStacks: [
+      "Next.js", "React.js", "TypeScript",
+      "TailwindCSS",
+      "TanStack Query",
+      "Hono.js", "Bun", "Drizzle ORM", "Turso DB",
+    ],
+  },
+  {
     href: "/projects/infominer",
     src: "/images/ss_infominer.vercel.app.png",
     appName: "InfoMiner",
